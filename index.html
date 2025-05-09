@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ Luck</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RJ Luck Aviator Game</h1>
+        <div id="multiplier">1.00x</div>
+        <button id="startBtn">Start</button>
+        <button id="cashoutBtn" disabled>Cash Out</button>
+        
+        <h2>Deposit (PhonePe)</h2>
+        <img src="qr.png" alt="PhonePe QR" class="qr">
+
+        <h2>Withdraw Request</h2>
+        <form id="withdrawForm">
+            <input type="text" placeholder="Enter UPI ID" required>
+            <input type="number" placeholder="Amount" required>
+            <button type="submit">Request Withdrawal</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
